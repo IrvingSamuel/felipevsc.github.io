@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>TEIN</title>
+  </head>
+  <body>
+    <div class="titulo">
+        <h3>Atividade de TEIN</h3>
+        <h7>Aluno: Felipe Ferreira Vasconcelos</h5>
+    </div>
+
+    <div class="titulo">
+      <h3>Bootstrap</h3>
+      <h7>É o framework mais conhecido do mundo para criar sites responsivos e mobile. </h5>
+      <br>
+      <h7>  Em seu site, afirma-se: “Bootstrap torna o desenvolvimento front-end mais rápido e fácil. Ele é feito para pessoas de todos os níveis de habilidade, dispositivos de todos os formatos e projetos de qualquer tamanho”</h7>
+  </div>
+  
+  <div class="titulo">
+      <h3>Como utilizar</h3>
+      <br>
+      <h7>Para utilizar-se dos estilos do Bootstrap, é necessário adicionar a seguinte linha de código:</h5>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+          <div class="tudo">
+          <div class="codigo">
+            <pre>
+&ltlink rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"&gt
+            </pre>
+          </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="titulo">
+  <h7>Alguns componententes requerem JavaScript, para isto as seguintes linhas de código deverão ser adicionadas no fim da página antes da tag body</h5>
+  </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+            <div class="tudo">
+            <div class="codigo">
+              <pre>
+  &ltscript src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"&gt&lt/script&gt<br>
+  &ltscript src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"&gt&lt/script&gt<br>
+  &ltscript src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"&gt&lt/script&gt
+              </pre>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+    <div class="titulo">
+        <h5>Botões</h5>
+        <h7>Existem vários tipos de botões, variando cor, tamanho, estado inativo/ativo e outros fatores.</br>Seguem alguns exemplos:</h7>
+      
+    </div>
+    
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+              
+            <h6>Botão normal</h6>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <br>
+            <div class="tudo">
+            <div class="codigo">
+              
+                &ltbutton type="button" class="btn btn-primary"&gtPrimary&lt/button&gt
+            </div>
+        </div>
+          </div>
+          <div class="col-sm">
+            <h6>Botão pequeno</h6>
+            <button type="button" class="btn btn-primary btn-sm">Botão pequeno</button>
+            <br>
+            <div class="tudo">
+            <div class="codigo">
+                &ltbutton type="button" class="btn btn-primary btn-sm"&gtBotão pequeno&lt/button&gt
+            </div>
+          </div>
+          </div>
+          <div class="col-sm">
+            <h6>Botão grande</h6>
+            <button type="button" class="btn btn-primary btn-lg">Botão grande</button>
+            <br>
+            <div class="tudo">
+            <div class="codigo">
+                &ltbutton type="button" class="btn btn-primary"&gtBotão grande&lt/button&gt
+            </div>
+          </div>
+          </div>
+        
+          
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h6>Botão normal (Perigo)</h6>
+            <button type="button" class="btn btn-danger">Perigo</button>
+            <br>
+            <div class="tudo">
+            <div class="codigo">
+                &ltbutton type="button" class="btn btn-danger"&gtPerigo&lt/button&gt
+            </div>
+          </div>
+          </div>
+          <div class="col-sm">
+            <h6>Botão outline</h6>
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+            <br>
+            <div class="tudo">
+            <div class="codigo">
+                &ltbutton type="button" class="btn btn-outline-primary"&gtPrimary&lt/button&gt
+            </div>
+          </div>
+          </div>
+          
+          <div class="col-sm">
+            <h6>Botão Estado Ativo</h6>
+            <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Link</a>
+            <br>
+            Este botão irá demonstrar o seu estado de ativo
+            <br>
+            <div class="tudo">
+            <div class="codigo">
+                &lta href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true"&gtLink&lt/a&gt
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h6>Botão Estado Desativado</h6>
+            <button type="button" class="btn btn-secondary btn-lg" disabled>Botão</button>
+            <br>
+            Este botão aparecerá como se estivesse desativado.
+            <div class="tudo">
+                    <div class="codigo">
+                        &ltbutton type="button" class="btn btn-secondary btn-lg" disabled&gtBotão&lt/button&gt
+                    </div>
+                  </div>
+          </div>
+          <div class="col-sm">
+            <h6>Botão Alternar Estados</h6>
+            <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                Única alternância
+              </button>
+              <br>
+            Este botão irá alternar seu Estado para ativo quando clicado.
+            <div class="tudo">
+                    <div class="codigo">
+                        &ltbutton type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off"&gtUnica alternância&lt/button&gt
+                    </div>
+                  </div>
+          </div>
+          <div class="col-sm">
+            <h6>Botão Tag "a"</h6>
+            <a class="btn btn-primary" href="#" role="button">Link</a>
+            <br>
+            Demonstração que não só o button pode ser um botão
+            <div class="tudo">
+                    <div class="codigo">
+                        &lta class="btn btn-primary" href="#" role="button"&gtLink&lt/a&gt
+                    </div>
+                  </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h6>Botão Checado</h6>
+            <div class="btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-secondary active">
+                  <input type="checkbox" checked autocomplete="off"> Checado
+                </label>
+              </div>
+              <br>
+            Este botão aparecerá como clicado.
+            <div class="tudo">
+                    <div class="codigo">
+                        &ltdiv class="btn-group-toggle" data-toggle="buttons"&gt
+
+                        &ltlabel class="btn btn-secondary active"&gt
+                        &ltinput type="checkbox" checked autocomplete="off"&gtChecado&lt/label&gt
+                        &lt/div&gt
+                       
+                    </div>
+                  </div>
+          </div>
+          <div class="col-sm">
+            <h6>Botão Checado em grupo</h6>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-secondary active">
+                  <input type="radio" name="options" id="option1" autocomplete="off" checked> Ativo
+                </label>
+                <label class="btn btn-secondary">
+                  <input type="radio" name="options" id="option2" autocomplete="off"> Radio
+                </label>
+                <label class="btn btn-secondary">
+                  <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+                </label>
+              </div>
+              <div class="tudo">
+                    <div class="codigo">
+                        &ltdiv class="btn-group btn-group-toggle" data-toggle="buttons"&gt
+                        &ltlabel class="btn btn-secondary active"&gt
+                        &ltinput type="radio" name="options" id="option1" autocomplete="off" checked&gt Ativo
+                        &lt/label&gt  
+                        &ltlabel class="btn btn-secondary"&gt
+                        &ltinput type="radio" name="options" id="option1" autocomplete="off" checked&gt Radio
+                        &lt/label&gt  
+                        &ltlabel class="btn btn-secondary"&gt
+                        &ltinput type="radio" name="options" id="option1" autocomplete="off" checked&gt Radio
+                        &lt/label&gt  
+                    </div>
+                  </div>
+            
+          </div>
+          <div class="col-sm">
+            <h6>Botão block-level</h6>
+            <button type="button" class="btn btn-primary btn-lg btn-block">Botão block-level</button>
+<button type="button" class="btn btn-secondary btn-lg btn-block">Botão block-level</button>
+            <br>
+            Botão que assume o tamanho do bloco.
+            <div class="tudo">
+                    <div class="codigo">
+                        &ltbutton type="button" class="btn btn-primary btn-lg btn-block"&gtBotão block-level&lt/button&gt
+                        &ltbutton type="button" class="btn btn-lg btn-lg btn-block"&gtBotão block-level&lt/button&gt
+                       
+                    </div>
+                  </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="titulo">
+            <h5>Alertas</h5>
+            <h7>Existem vários tipos de Alertas, variando seus estilos.</br>Seguem alguns exemplos:</h7>
+          
+        </div>
+
+        <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <h6>Alerta padrão</h6>
+                    <div class="alert alert-warning" role="alert">
+                            Um simples alerta warning. Olha só!
+                    </div>
+                    <br>
+                   
+                    <div class="tudo">
+                            <div class="codigo">
+                                &ltdiv class="alert alert-warning" role="alert"&gtUm simples alerta warning. Olha só! 
+                                
+                                &lt/div&gt
+                            </div>
+                          </div>
+                  </div>
+                  <div class="col-sm">
+                    <h6>Alerta com link</h6>
+                    <div class="alert alert-primary" role="alert">
+                            Um simples alerta primary com <a href="#" class="alert-link">um link de exemplo</a>. Clique nele, se quiser.
+                    </div>
+                    <div class="tudo">
+                            <div class="codigo">
+                                &ltdiv class="alert alert-primary" role="alert"&gtUm simples alerta primary com &lta href="#" class="alert-link"&gtum link de exemplo&lt/a&gt. Clique nele, se quiser.  
+                                
+                                &lt/div&gt
+                            </div>
+                          </div>
+                  </div>
+                  
+                </div>
+
+                <div class="row">
+                  <div class="col-sm">
+                    <h6>Alerta secundário</h6>
+                    <div class="alert alert-secondary" role="alert">Secondary alert.</div>
+                    <br>
+                   
+                    <div class="tudo">
+                            <div class="codigo">
+                              &ltdiv class="alert alert-secondary" role="alert"&gtSecondary alert.&lt/div&gt
+                            </div>
+                          </div>
+                  </div>
+                  <div class="col-sm">
+                    <h6>Alerta de Sucesso</h6>
+                    <div class="alert alert-success" role="alert">Success alert.</div>
+                    <div class="tudo">
+                            <div class="codigo">
+                                
+&ltdiv class="alert alert-success" role="alert"&gtSuccess alert.&lt/div&gt
+                            </div>
+                          </div>
+                  </div>
+                  
+                </div>
+
+                <div class="row">
+                  <div class="col-sm">
+                    <h6>Alerta de perigo</h6>
+                    <div class="alert alert-danger" role="alert">Danger alert.</div>
+                    <br>
+                   
+                    <div class="tudo">
+                            <div class="codigo">
+                              &ltdiv class="alert alert-danger" role="alert"&gtDanger alert.&lt/div&gt
+                            </div>
+                          </div>
+                  </div>
+                  <div class="col-sm">
+                    <h6>Alerta de Aviso</h6>
+                    <div class="alert alert-warning" role="alert">Warning alert.</div>
+                    <div class="tudo">
+                            <div class="codigo">
+                                
+                              &ltdiv class="alert alert-warning" role="alert"&gtWarning alert.&lt/div&gt
+                            </div>
+                          </div>
+                  </div>
+                  
+                </div>
+
+                <div class="row">
+                  <div class="col-sm">
+                    <h6>Alerta de perigo</h6>
+                    <div class="alert alert-danger" role="alert">Danger alert.</div>
+                    <br>
+                   
+                    <div class="tudo">
+                            <div class="codigo">
+                              &ltdiv class="alert alert-danger" role="alert"&gtDanger alert.&lt/div&gt
+                            </div>
+                          </div>
+                  </div>
+                  <div class="col-sm">
+                    <h6>Alerta de Informação</h6>
+                    <div class="alert alert-info" role="alert">Info alert.</div>
+                    <div class="tudo">
+                            <div class="codigo">
+                                
+                              &ltdiv class="alert alert-info" role="alert"&gtInfo alert.&lt/div&gt
+                            </div>
+                          </div>
+                  </div>
+                  
+                </div>
+
+                <div class="row">
+                  <div class="col-sm">
+                    <h6>Alerta claro</h6>
+                    <div class="alert alert-light" role="alert">Light alert.</div>
+                    <br>
+                   
+                    <div class="tudo">
+                            <div class="codigo">
+                              &ltdiv class="alert alert-light" role="alert"&gtLight alert.&lt/div&gt
+                            </div>
+                          </div>
+                  </div>
+                  <div class="col-sm">
+                    <h6>Alerta Escuro</h6>
+                    <<div class="alert alert-dark" role="alert">Dark alert.</div>
+                    <div class="tudo">
+                            <div class="codigo">
+                                
+                              &ltdiv class="alert alert-dark" role="alert"&gtDark alert.&lt/div&gt
+                            </div>
+                          </div>
+                  </div>
+                  
+                </div>
+                
+              </div>
+
+        <div class="titulo">
+            <h5>Tabelas</h5>
+            <h7>Existem vários tipos de Alertas, variando seus estilos.</br>Seguem alguns exemplos:</h7>
+            <div class="container">
+                    <div class="row">
+                      <div class="col-sm">
+                        <h6>Tabela padrão</h6>
+                        
+                        <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Primeiro</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                        <div class="tudo">
+                                <div class="codigo">
+                                  <pre>
+  &ltthead&gt
+  &lttr&gt
+  &ltth scope="col"&gt#&lt/th&gt 
+  &ltth scope="col"&gtPrimeiro&lt/th&gt 
+  &lt/tr&gt
+  &lt/thead&gt
+  &lttbody&gt
+  &lttr&gt
+  &ltth scope="row"&gt1&lt/th&gt 
+  &lttd&gtMark&lt/td&gt 
+  &lt/tr&gt
+  &lttr&gt
+  &ltth scope="row"&gt2&lt/th&gt 
+  &lttd&gtJacob&lt/td&gt 
+  &lt/tr&gt
+  &lt/tbody&gt
+  &lt/table&gt
+                                  </pre>
+                                </div>
+                              </div>
+                      </div>
+                                            
+                    </div>
+
+                    <div class="row">
+                      <div class="col-sm">
+                        <h6>Tabela com cabeçalho diferente</h6>
+                        
+                        <table class="table">
+                          <thead class="thead-dark">
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">First</th>
+                              <th scope="col">Last</th>
+                              <th scope="col">Handle</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Mark</td>
+                              <td>Otto</td>
+                              <td>@mdo</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Jacob</td>
+                              <td>Thornton</td>
+                              <td>@fat</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td>Larry</td>
+                              <td>the Bird</td>
+                              <td>@twitter</td>
+                            </tr>
+                          </tbody>
+              </table>
+                        <div class="tudo">
+                                <div class="codigo">
+                                  <pre>
+  &lttable class="table"&gt
+  &ltthead class="thead-dark"&gt
+    &lttr&gt
+      &ltth scope="col"&gt#&lt/th&gt
+      &ltth scope="col"&gtFirst&lt/th&gt
+      &ltth scope="col"&gtLast&lt/th&gt
+      &ltth scope="col"&gtHandle&lt/th&gt
+    &lt/tr&gt
+  &lt/thead&gt
+  &lttbody&gt
+    &lttr&gt
+      &ltth scope="row"&gt1&lt/th&gt
+      &lttd&gtMark&lt/td&gt
+      &lttd&gtOtto&lt/td&gt
+      &lttd&gt@mdo&lt/td&gt
+    &lt/tr&gt
+    &lttr&gt
+      &ltth scope="row"&gt2&lt/th&gt
+      &lttd&gtJacob&lt/td&gt
+      &lttd&gtThornton&lt/td&gt
+      &lttd&gt@fat&lt/td&gt
+    &lt/tr&gt
+    &lttr&gt
+      &ltth scope="row"&gt3&lt/th&gt
+      &lttd&gtLarry&lt/td&gt
+      &lttd&gtthe Bird&lt/td&gt
+      &lttd&gt@twitter&lt/td&gt
+    &lt/tr&gt
+  &lt/tbody&gt
+&lt/table&gt
+                              </pre>
+                                </div>
+                              </div>
+                      </div>
+                                            
+                    </div>
+
+                    <div class="row">
+                      <div class="col-sm">
+                        <h6>Tabela com Hover. Demonstração de Personalização</h6>
+                        
+                        <table class="table table-hover table-dark">
+                          <thead>
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">First</th>
+                              <th scope="col">Last</th>
+                              <th scope="col">Handle</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Mark</td>
+                              <td>Otto</td>
+                              <td>@mdo</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Jacob</td>
+                              <td>Thornton</td>
+                              <td>@fat</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td colspan="2">Larry the Bird</td>
+                              <td>@twitter</td>
+                            </tr>
+                            
+                          </tbody>
+              </table>
+                        <div class="tudo">
+                                <div class="codigo">
+                                <pre>
+&lttable class="table table-hover table-dark"&gt
+  &ltthead&gt
+    &lttr&gt
+      &ltth scope="col"&gt#&lt/th&gt
+      &ltth scope="col"&gtFirst&lt/th&gt
+      &ltth scope="col"&gtLast&lt/th&gt
+      &ltth scope="col"&gtHandle&lt/th&gt
+    &lt/tr&gt
+  &lt/thead&gt
+  &lttbody&gt
+    &lttr&gt
+      &ltth scope="row"&gt1&lt/th&gt
+      &lttd&gtMark&lt/td&gt
+      &lttd&gtOtto&lt/td&gt
+      &lttd&gt@mdo&lt/td&gt
+    &lt/tr&gt
+    &lttr&gt
+      &ltth scope="row"&gt2&lt/th&gt
+      &lttd&gtJacob&lt/td&gt
+      &lttd&gtThornton&lt/td&gt
+      &lttd&gt@fat&lt/td&gt
+    &lt/tr&gt
+    &lttr&gt
+      &ltth scope="row"&gt3&lt/th&gt
+      &lttd colspan="2"&gtLarry the Bird&lt/td&gt
+      &lttd&gt@twitter&lt/td&gt
+    &lt/tr&gt
+    &lttr&gt
+      &ltth scope="row"&gt3&lt/th&gt
+      &lttd&gttimp1&lt/td&gt
+      &lttd colspan="2"&gt@ifal.edu.br&lt/td&gt
+    &lt/tr&gt
+  &lt/tbody&gt
+&lt/table&gt</pre>
+                                </div>
+                              </div>
+                      </div>
+                                            
+                    </div>
+                  </div>
+        </div>
+
+        <div class="titulo">
+                <h5>Grid</h5>
+                <h7>Existem vários tipos de layout Grid, que servem para os mais diferentes fins e variam seus estilos.</br>Seguem alguns exemplos:</h7>
+                <div class="container">
+                        <div class="row">
+                          <div class="col-sm">
+                            <h6>Grid coluna tripla</h6>
+                            <div class="container">
+                                    <div class="row">
+                                      <div class="col-sm">
+                                        Uma de três colunas
+                                      </div>
+                                      <div class="col-sm">
+                                        Uma de três colunas
+                                      </div>
+                                      <div class="col-sm">
+                                        Uma de três colunas
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                            <div class="tudo">
+                                    <div class="codigo">
+                                      <pre>
+  &ltdiv class="container"&gt
+  &ltdiv class="row"&gt 
+  &ltdiv class="col-sm"&gtUma de três colunas   
+  &lt/div&gt
+  &ltdiv class="row"&gt 
+  &ltdiv class="col-sm"&gtUma de três colunas   
+  &lt/div&gt
+  &ltdiv class="row"&gt 
+  &ltdiv class="col-sm"&gtUma de três colunas   
+  &lt/div&gt
+  &lt/div&gt
+  &lt/div&gt
+                                          </pre>
+                                    </div>
+                                    <br>
+                                    Dentro do &ltdiv class="col-sm"&gt, pode-se mudar esse "col" para outros tamanhos. "sm" significa Small; "md" Medium; "lg" Large; "xl" ExtraLarge.
+                                    <br>
+                                    Também é possível alinhar elementos verticalmente, utilizando-se de &ltdiv class="row align-items-center"&gt ou &ltdiv class="row align-items-start"&gt
+ ou &ltdiv class="row align-items-center"&gt                                  </div>
+                          </div>
+                                                
+                        </div>
+
+                        <div class="row">
+                            <h6>Grid coluna tripla centralizada e com espaços responsivos</h6>
+                        <br>
+                            <div class="col-sm">
+                                  <div class="row row-example justify-content-md-center">
+                                    <div class="col col-example col-lg-2">
+                                      Primeira parte
+                                    </div>
+                                    <div class="col-md-auto col-example">
+                                      Segunda parte
+                                    </div>
+                                    <div class="col col-example col-lg-2">
+                                      Terceira
+                                    </div>
+                        </div>
+                                    
+                              <div class="tudo">
+                                      <div class="codigo">
+                                        <pre>
+    &ltdiv class="container"&gt
+    &ltdiv class="row"&gt 
+    &ltdiv class="col-sm"&gtUma de três colunas   
+    &lt/div&gt
+    &ltdiv class="row"&gt 
+    &ltdiv class="col-sm"&gtUma de três colunas   
+    &lt/div&gt
+    &ltdiv class="row"&gt 
+    &ltdiv class="col-sm"&gtUma de três colunas   
+    &lt/div&gt
+    &lt/div&gt
+    &lt/div&gt
+                                            </pre>
+                                      </div>
+                                      </div>
+                            
+                                                  
+                          </div>
+                      </div>
+
+                      
+            </div>
+
+            <div class="titulo">
+                    <h5>Navbar</h5>
+                    <h7>Navbar são os cabeçalhos de navegação. Existem vários estilos e usos do mesmo</br>Seguem alguns exemplos:</h7>
+                    <div class="container">
+                            <div class="row">
+                              <div class="col-sm">
+                                <h6>Exemplo 1</h6>
+                                <nav class="navbar navbar-light bg-light">
+                                        <a class="navbar-brand">Navbar</a>
+                                        <form class="form-inline">
+                                          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                                          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                                        </form>
+                                      </nav>
+                                
+                                <div class="tudo">
+                                        <div class="codigo">
+                                          <pre>
+  &ltnav class="navbar navbar-light bg-light"&gt
+  &lta class="navbar-brand"&gtNavbar&lt/a&gt
+  &ltform class="form-inline"&gt
+  &ltinput class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar"&gt
+  &ltbutton class="btn btn-outline-success my-2 my-sm-0" type="submit"&gtPesquisar&lt/button&gt
+  &lt/form&gt
+  &lt/nav&gt
+                                        </pre>
+                                        </div>
+                                      </div>
+                              </div>
+                                                    
+                            </div>
+                            <div class="row">
+                                    <div class="col-sm">
+                                      <h6>Exemplo 2</h6>
+                                      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                                            <a class="navbar-brand" href="#">Navbar</a>
+                                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+                                              <span class="navbar-toggler-icon"></span>
+                                            </button>
+                                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                              <div class="navbar-nav">
+                                                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(Página atual)</span></a>
+                                                <a class="nav-item nav-link" href="#">Destaques</a>
+                                                <a class="nav-item nav-link disabled" href="#">Desativado</a>
+                                              </div>
+                                            </div>
+                                          </nav>
+                                      <div class="tudo">
+                                              <div class="codigo">
+                                                <pre>
+  &ltnav class="navbar navbar-expand-lg navbar-dark bg-dark"&gt
+  &lta class="navbar-brand" href="#"&gtNavbar&lt/a&gt
+  &ltbutton class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação"&gt  
+  &ltspan class="navbar-toggler-icon"&gt&lt/span&gt
+  &lt/button&gt
+  &ltdiv class="collapse navbar-collapse" id="navbarNavAltMarkup"&gt
+  &ltdiv class="navbar-nav"&gt
+  &lta class="nav-item nav-link active" href="#"&gtHome &ltspan class="sr-only"&gt(Página atual)&lt/span&gt&lt/a&gt
+  &lta class="nav-item nav-link" href="#"&gtDestaques&lt/a&gt
+  &lta class="nav-item nav-link disabled" href="#"&gtDesativado&lt/a&gt
+  &lt/div&gt
+  &lt/div&gt
+  &lt/nav&gt
+                                              </pre>
+                                              </div>
+                                            </div>
+                                    </div>
+                                                          
+                                  </div>
+                          </div>
+    
+                          
+                </div>
+
+                <div class="titulo">
+                        <h5>Input</h5>
+                        <h7>Existem vários estilos e usos do mesmo, pode-se personalizar para o fim necessário.</br>Seguem alguns exemplos:</h7>
+                        <div class="container">
+                                <div class="row">
+                                  <div class="col-sm">
+                                    <h6>Exemplo 1 - Multiplos inputs</h6>
+                                    <div class="input-group">
+                                            <div class="input-group-prepend">
+                                              <span class="input-group-text">Nome e sobrenome</span>
+                                            </div>
+                                            <input type="text" aria-label="First name" class="form-control">
+                                            <input type="text" aria-label="Last name" class="form-control">
+                                          </div>
+                                    
+                                    <div class="tudo">
+                                            <div class="codigo">
+                                              <pre>
+  &ltdiv class="input-group"&gt 
+  &ltdiv class="input-group-prepend"&gt
+  &ltspan class="input-group-text"&gtNome e sobrenome&lt/span&gt 
+  &lt/div&gt
+  &ltinput type="text" aria-label="First name" class="form-control"&gt
+  &ltinput type="text" aria-label="Last name" class="form-control"&gt
+  &lt/div&gt
+                                            </pre>
+                                            </div>
+                                          </div>
+                                  </div>
+                                                        
+                                </div>
+                                <div class="row">
+                                        <div class="col-sm">
+                                          <h6>Exemplo 2 - Input pequeno</h6>
+                                          <div class="input-group-prepend">
+                                                <span class="input-group-text" id="inputGroup-sizing-sm">Pequeno</span>
+                                              </div>
+                                              <input type="text" class="form-control" aria-label="Exemplo do tamanho do input" aria-describedby="inputGroup-sizing-sm">
+                                            </div>
+                                          <div class="tudo">
+                                                  <div class="codigo">
+                                                    <pre>
+  &ltdiv class="input-group-prepend"&gt
+  &ltspan class="input-group-text" id="inputGroup-sizing-sm"&gtPequeno&lt/span&gt
+  &lt/div&gt
+  &ltinput type="text" class="form-control" aria-label="Exemplo do tamanho do input" aria-describedby="inputGroup-sizing-sm"&gt
+  &lt/div&gt
+          </pre>
+                                                  </div>
+                                                </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-sm">
+                                              <h6>Exemplo 3 - Input Grande</h6>
+                                              <div class="input-group input-group-lg">
+                                                  <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="inputGroup-sizing-lg">Large</span>
+                                                  </div>
+                                                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                                                </div>
+                                              <div class="tudo">
+                                                      <div class="codigo">
+                                                        <pre>
+      &ltdiv class="input-group input-group-lg"&gt
+      &ltdiv class="input-group-prepend"&gt
+        &ltspan class="input-group-text" id="inputGroup-sizing-lg"&gtLarge&lt/span&gt
+      &lt/div&gt
+      &ltinput type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"&gt
+    &lt/div&gt
+              </pre>
+                                                      </div>
+                                                    </div>
+                                            </div>
+
+                              </div>
+
+                              <div class="row">
+                                  <div class="col-sm">
+                                    <h6>Mais exemplos</h6>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                          <div class="input-group-text">
+                                            <input type="checkbox" aria-label="Checkbox for following text input">
+                                          </div>
+                                        </div>
+                                        <input type="text" class="form-control" aria-label="Text input with checkbox">
+                                      </div>
+                                      
+                                      <div class="input-group">
+                                        <div class="input-group-prepend">
+                                          <span class="input-group-text">First and last name</span>
+                                        </div>
+                                        <input type="text" aria-label="First name" class="form-control">
+                                        <input type="text" aria-label="Last name" class="form-control">
+                                      </div>
+                                      
+                                      <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                          <button class="btn btn-outline-secondary" type="button" id="button-addon1">Button</button>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                                      </div>
+                                      
+                                      <div class="input-group">
+                                        <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                                        <div class="input-group-append">
+                                          <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+                                          <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            <div role="separator" class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Separated link</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                      <div class="input-group">
+                                        <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+                                        <div class="input-group-append">
+                                          <button type="button" class="btn btn-outline-secondary">Action</button>
+                                          <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                          </button>
+                                          <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            <div role="separator" class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Separated link</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    <div class="tudo">
+                                            <div class="codigo">
+                                              <pre>
+  &ltdiv class="input-group mb-3"&gt
+  &ltdiv class="input-group-prepend"&gt
+    &ltdiv class="input-group-text"&gt
+      &ltinput type="checkbox" aria-label="Checkbox for following text input"&gt
+    &lt/div&gt
+  &lt/div&gt
+  &ltinput type="text" class="form-control" aria-label="Text input with checkbox"&gt
+&lt/div&gt
+
+&ltdiv class="input-group"&gt
+  &ltdiv class="input-group-prepend"&gt
+    &ltspan class="input-group-text"&gtFirst and last name&lt/span&gt
+  &lt/div&gt
+  &ltinput type="text" aria-label="First name" class="form-control"&gt
+  &ltinput type="text" aria-label="Last name" class="form-control"&gt
+&lt/div&gt
+
+&ltdiv class="input-group mb-3"&gt
+  &ltdiv class="input-group-prepend"&gt
+    &ltbutton class="btn btn-outline-secondary" type="button" id="button-addon1"&gtButton&lt/button&gt
+  &lt/div&gt
+  &ltinput type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1"&gt
+&lt/div&gt
+
+&ltdiv class="input-group"&gt
+  &ltinput type="text" class="form-control" aria-label="Text input with dropdown button"&gt
+  &ltdiv class="input-group-append"&gt
+    &ltbutton class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&gtDropdown&lt/button&gt
+    &ltdiv class="dropdown-menu"&gt
+      &lta class="dropdown-item" href="#"&gtAction&lt/a&gt
+      &lta class="dropdown-item" href="#"&gtAnother action&lt/a&gt
+      &lta class="dropdown-item" href="#"&gtSomething else here&lt/a&gt
+      &ltdiv role="separator" class="dropdown-divider"&gt&lt/div&gt
+      &lta class="dropdown-item" href="#"&gtSeparated link&lt/a&gt
+    &lt/div&gt
+  &lt/div&gt
+&lt/div&gt
+
+&ltdiv class="input-group"&gt
+  &ltinput type="text" class="form-control" aria-label="Text input with segmented dropdown button"&gt
+  &ltdiv class="input-group-append"&gt
+    &ltbutton type="button" class="btn btn-outline-secondary"&gtAction&lt/button&gt
+    &ltbutton type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&gt
+      &ltspan class="sr-only"&gtToggle Dropdown&lt/span&gt
+    &lt/button&gt
+    &ltdiv class="dropdown-menu"&gt
+      &lta class="dropdown-item" href="#"&gtAction&lt/a&gt
+      &lta class="dropdown-item" href="#"&gtAnother action&lt/a&gt
+      &lta class="dropdown-item" href="#"&gtSomething else here&lt/a&gt
+      &ltdiv role="separator" class="dropdown-divider"&gt&lt/div&gt
+      &lta class="dropdown-item" href="#"&gtSeparated link&lt/a&gt
+    &lt/div&gt
+  &lt/div&gt
+&lt/div&gt
+    </pre>
+                                            </div>
+                                          </div>
+                                  </div>
+
+                    </div>
+        
+                              
+                    </div>
+
+                    <div class="titulo">
+                      <h5>Carousel</h5>
+                      <h7>Existem vários estilos e usos do mesmo, pode-se personalizar para o fim necessário.</br>Seguem alguns exemplos:</h7>
+                      <center>
+                      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block "  src="novo.png" width=”20%” height=”20%” alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block "  src="joao.png" width=”360” height=”200” alt="Second slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block " src="novo2.png" width=”360” height=”200” alt="Third slide">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                    </center>
+                                  <div class="tudo">
+                                          <div class="codigo">
+                                            <pre>
+  &ltdiv id="carouselExampleControls" class="carousel slide" data-ride="carousel"&gt
+  &ltdiv class="carousel-inner"&gt
+  &ltdiv class="carousel-item active"&gt
+  &ltimg class="d-block w-10 h-10" src="source" alt="First slide"&gt
+  &lt/div&gt
+  &ltdiv class="carousel-item"&gt
+  &ltimg class="d-block w-10 h-10" src="source" alt="Second slide"&gt
+  &lt/div&gt
+  &ltdiv class="carousel-item"&gt
+  &ltimg class="d-block w-10 h-10" src="source" alt="Third slide"&gt
+  &lt/div&gt
+  &lt/div&gt
+  &lta class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"&gt
+  &ltspan class="carousel-control-prev-icon" aria-hidden="true"&gt&lt/span&gt
+  &ltspan class="sr-only"&gtPrevious&lt/span&gt
+  &lt/a&gt
+  &lta class="carousel-control-Next" href="#carouselExampleControls" role="button" data-slide="Next"&gt
+  &ltspan class="carousel-control-Next-icon" aria-hidden="true"&gt&lt/span&gt
+  &ltspan class="sr-only"&gtNext&lt/span&gt
+  &lt/a&gt
+  &lt/div&gt
+                                          </pre>
+
+                                          </div>
+                                        </div>
+                                </div>
+                                                    
+                              
+                                      
+                                    
+                            </div>
+      
+                            
+                  </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
