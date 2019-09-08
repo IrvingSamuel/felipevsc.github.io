@@ -42,7 +42,7 @@ hr {
   .linhaTxt:after {
     content: '';
 
-    width: 35%;
+    width: 39%;
     position: absolute;
     left: 0;
     bottom: 1px;
@@ -61,7 +61,7 @@ hr {
   .linhaTxt2:after {
     content: '';
 
-    width: 24%;
+    width: 27%;
     position: absolute;
     left: 0;
     bottom: 1px;
@@ -80,7 +80,7 @@ hr {
   .linhaTxt3:after {
     content: '';
 
-    width: 24%;
+    width: 27%;
     position: absolute;
     left: 0;
     bottom: 2px;
