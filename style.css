@@ -31,3 +31,60 @@ hr {
     border-style: inset;
     border-width: 1.5px;
   }
+
+.linhaTxt{
+    
+    text-decoration: none;
+    position: relative;
+     
+}
+
+  .linhaTxt:after {
+    content: '';
+
+    width: 35%;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    color: lightslategray;
+    border-width: 0 0 1px;
+    border-style: solid;
+}
+
+.linhaTxt2{
+    
+    text-decoration: none;
+    position: relative;
+     
+}
+
+  .linhaTxt2:after {
+    content: '';
+
+    width: 24%;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    color: lightslategray;
+    border-width: 0 0 1px;
+    border-style: solid;
+}
+
+.linhaTxt3{
+    
+    text-decoration: none;
+    position: relative;
+     
+}
+
+  .linhaTxt3:after {
+    content: '';
+
+    width: 24%;
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    color: lightslategray;
+    border-width: 0 0 3px;
+    border-style: outset;
+}
